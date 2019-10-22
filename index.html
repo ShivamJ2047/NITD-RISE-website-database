@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>
+      <script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-firestore.js"></script>
+</title>
+  </head>
+  <body>
+
+    <h2>NITD upload</h2>
+
+    <form action="/action_page.php">
+      Author name:<br>
+      <input type="text" name="firstname" placeholder="Enter your name">
+      <br>
+      Content for blog:<br>
+      <input type="file" name="content" />  <br><br>
+      images for blog:<br>
+      <input type="file" name="image" />  <br><br>
+      <input type="submit" value="Submit">
+    </form>
+
+    <p>If you click the "Submit" button, the form-data will be sent to our database.</p>
+
+  </body>
+</html>
